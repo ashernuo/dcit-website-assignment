@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About Us</title>
+<link rel="stylesheet" href="css/style.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  
+  width: 100;
+  
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+    <nav id="navbar">
+        <h2><a href="#home"><span class="text-primary">ASHER</span> Nuo</a></h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            
+
+        </ul>
+    </nav>
+<h2 style="text-align:left; margin-left: 150px;">About Us</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="./img/picture.jpg" alt="" style="width:100%">
+      <div class="container">
+        <h2>Asher Nuo</h2>
+        <p>We creating custom brands and logo designs from scratch,
+            as well as designing and building high quality websites and blogs
+             We pride ourselves in having the nerdy skills to build top notch creations online,
+            as well as being knowledgeable in the print side of design.</p>
+        <p><button class="button" ><a style="text-decoration:none; color:white;" href="https://wa.me/qr/S3DQMHIEJMB3I1"><strong>Contact</strong></a></button></p>
+      </div>
+    </div>
+  </div>
